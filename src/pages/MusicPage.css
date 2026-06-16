@@ -1,0 +1,23 @@
+.music-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  min-height: 100vh;
+  background-color: #000; /* Netflix-style dark background */
+}
+
+.page-title {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.playlist-wrapper {
+  width: 80%;
+  max-width: 900px;
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.5); /* Netflix red glow */
+  border-radius: 12px;
+  overflow: hidden;
+}

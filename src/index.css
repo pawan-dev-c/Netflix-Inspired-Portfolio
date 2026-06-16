@@ -1,0 +1,13 @@
+/* src/index.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000 !important; /* Netflix black */
+  color: #fff; /* ✅ white text */
+  font-family: Arial, sans-serif;
+}
+
+html, #root {
+  height: 100%;
+  background-color: #000 !important; /* ensure full dark background */
+}

@@ -1,0 +1,75 @@
+/* ProfilePage.css */
+.profile-page {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 75vh;                 /* banner height */
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* If using a <video> in the background, make it cover */
+.profile-page video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* banner content sits above the video/background */
+.profile-page > .banner-content,
+.profile-page .banner-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1100px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* headings inside banner */
+.profile-page h1,
+.profile-page .banner-headline {
+  font-size: 2.5rem;
+  margin: 0 0 10px 0;
+  line-height: 1.05;
+}
+
+.profile-page p,
+.profile-page .banner-description {
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+  max-width: 70ch;
+  color: #e6e6e6;
+}
+
+/* On small screens use full height for banner */
+@media (max-width: 768px) {
+  .profile-page {
+    height: 100vh;
+    padding-bottom: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-page h1,
+  .profile-page .banner-headline {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .profile-page .banner-description {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .profile-page > .banner-content {
+    padding: 60px 16px;
+  }
+}
