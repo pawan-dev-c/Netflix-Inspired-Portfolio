@@ -42,7 +42,7 @@ Over time, the project evolved into my primary personal website and continues to
 
 * Git & GitHub
 * VS Code
-* Vercel / Hosting Platform
+* Hostinger
 
 ---
 
@@ -95,8 +95,8 @@ The initial inspiration for this portfolio came from the open-source Netflix Por
 
 🌐 Website: https://pawanchoudhary.in
 
-💼 LinkedIn: Add your LinkedIn URL
+💼 LinkedIn: www.linkedin.com/in/pawan-choudhary-a61a61383
 
-📧 Email: Add your Email
+📧 Email: sendmethosebuck@gmail.com
 
 🐙 GitHub: https://github.com/pawan-dev-c
